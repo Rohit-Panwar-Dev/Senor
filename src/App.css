@@ -4,7 +4,7 @@ main{
   background:url('https://www.sheensalon.com/wp-content/uploads/Home-banner-22.jpg');
    background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative;
 }

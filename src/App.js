@@ -41,7 +41,6 @@ function App() {
     <main>
     <div class="overlay">
     </div>
-      {/* <div className='blank'></div> */}
     <header className="container-fluid">
        <div className='container d-flex flex-xs-row flex-lg-column justify-content-sm-between py-1 '>
               <figure className='text-center '>
