@@ -10,29 +10,29 @@ function App() {
     event.preventDefault();
   }
 
-  useEffect(()=>{
-    window.addEventListener('contextmenu',handleBlockInspect);
-    return function cleanup(){
-      window.removeEventListener('contextmenu',handleBlockInspect);
-    }
-  },[])
+  // useEffect(()=>{
+  //   window.addEventListener('contextmenu',handleBlockInspect);
+  //   return function cleanup(){
+  //     window.removeEventListener('contextmenu',handleBlockInspect);
+  //   }
+  // },[])
 
 
-  useEffect(() => {
-    const handleKeyDown = (event) => {
-      if (event.ctrlKey && event.shiftKey) {
-        // Prevent the default behavior
-        event.preventDefault();
-        console.log('Ctrl+Shift combination disabled');
-      }
-    };
+  // useEffect(() => {
+  //   const handleKeyDown = (event) => {
+  //     if (event.ctrlKey && event.shiftKey) {
+  //       // Prevent the default behavior
+  //       event.preventDefault();
+  //       console.log('Ctrl+Shift combination disabled');
+  //     }
+  //   };
 
-    window.addEventListener('keydown', handleKeyDown);
+  //   window.addEventListener('keydown', handleKeyDown);
 
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('keydown', handleKeyDown);
+  //   };
+  // }, []);
 
 
 
