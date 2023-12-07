@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap');
 main{
   background:url('https://www.sheensalon.com/wp-content/uploads/Home-banner-22.jpg');
-  background-position: right;
+  background-position: right; 
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +22,7 @@ header figure img{
 .header-banner h1{
   position: relative;
   color: #FFFFFF;
-    font-size: 94px;
+    font-size: 90px;
     line-height: 1em;
     z-index: 99;
     letter-spacing: 5.2px;
