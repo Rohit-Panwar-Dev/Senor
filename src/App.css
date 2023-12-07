@@ -1,38 +1,293 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Upright:wght@500&family=Philosopher:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap');
+main{
+  background:url('https://www.sheensalon.com/wp-content/uploads/Home-banner-22.jpg');
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .blank{
+  height: 314px;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+  position: fixed;
+  top: 0;
+} */
+header figure img{
+  mix-blend-mode: color-dodge;
 }
+.header-banner h1{
+  position: relative;
+  color: #FFFFFF;
+    font-size: 97px;
+    line-height: 1em;
+    z-index: 99;
+    letter-spacing: 5.2px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 38px rgba(0,0,0,0.3);
+}
+.header-banner button{
+  position: relative;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 6px 6px 6px 6px;
+  letter-spacing: 5.2px;
+  background-color: #3D1F14;
+  padding: 15px 60px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 45px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.header-banner h2{
+  color: #FFFFFF;
+  position: relative;
+    font-size: 28px;
+    line-height: 1em;
+    letter-spacing: 5.2px;
+    font-weight: bolder;
+    padding: 15px 0px;
+    text-shadow: 0px 0px 38px rgba(0,0,0,0.3);
+}
+.transform h3{
+  font-size: 48px;
+  padding-bottom: 10px;
+  font-family: Allura;
+  color: #3D1F14;
+}
+.transform h2{
+  font-size: 60px;
+  font-family: Cormorant Upright;
+  font-weight: bold;
+  color: #3D1F14;
+  padding-bottom: 10px;
+}
+.transform p{
+  font-size: 30px;
+  color: #3D1F14;
+  padding-bottom: 30px;
+  font-family: Cormorant Upright;
+}
+.transform button{
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  border-style: solid;
+  letter-spacing: 5.2px;
+  border-width: 6px 6px 6px 6px;
+  background-color: #3D1F14;
+  padding: 15px 60px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 45px;
+  border-color: #FFFFFF;
+}
+.offer{
+  background-color: #E9ECF1;
+  background-image: url(https://www.sheensalon.com/wp-content/uploads/offer-bg_2.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+.offer h3{
+  font-size: 48px;
+  padding-bottom: 10px;
+  font-family: Allura;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.offer h2{
+  font-size: 60px;
+  font-family: Cormorant Upright;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
 }
+.offer-box{
+  background-color: rgba(25, 81, 32, 0.3);
+  padding: 30px;
+}
+.offer p{
+  font-size: 29px;
+  color: white;
+  padding: 0px 80px;
+  padding-bottom: 30px;
+  font-family: Cormorant Upright;
+}
+.offer button{
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  border-style: solid;
+  letter-spacing: 5.2px;
+  border-width: 3px 3px 3px 3px;
+  background-color: #3D1F14;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 45px;
+  cursor: pointer;
+  border-color: #FFFFFF;
+}
+.tbg{
+  background-color: #EEEEEE;
+}
+.member{
+  background-color: #EEEEEE;
+    background-image: url(https://www.sheensalon.com/wp-content/uploads/WhatsApp-Image-2023-11-07-at-8.40.50-AM.jpeg);
+    background-position: 0px -257px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.member h3{
+  font-size: 48px;
+  padding-bottom: 10px;
+  font-family: Allura;
+  color: white;
+}
+.member h2{
+  font-size: 60px;
+  font-family: Cormorant Upright;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+}
+.member p{
+  font-size: 29px;
+  color: white;
+  padding: 0px 80px;
+  padding-bottom: 30px;
+  font-family: Cormorant Upright;
+}
+.member button{
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  border-style: solid;
+  letter-spacing: 5.2px;
+  border-width: 6px 6px 6px 6px;
+  background-color: #3D1F14;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 45px;
+  border-color: #FFFFFF;
+}
+.product h3{
+  font-size: 48px;
+  padding-bottom: 10px;
+  font-family: Allura;
+  color: #3D1F14;
+}
+.product h2{
+  font-size: 60px;
+  font-family: Cormorant Upright;
+  font-weight: bold;
+  color: #3D1F14;
+  padding-bottom: 10px;
+}
+.product p{
+  font-size: 29px;
+  color: #3D1F14;
+  padding: 0px 80px;
+  padding-bottom: 30px;
+  font-family: Cormorant Upright;
+}
+.product button{
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  border-style: solid;
+  letter-spacing: 5.2px;
+  border-width: 6px 6px 6px 6px;
+  cursor: pointer;
+  background-color: #3D1F14;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 45px;
+  border-color: #FFFFFF;
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: transparent;
+    background-image: linear-gradient(180deg, #195120 0%, rgba(25, 81, 32, 0.41) 53%);
+    opacity: 0.56;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.overlay3{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: transparent;
+  opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.footer-top{
+  background-color: #3D1F14;
+  /* background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.83) 100%);
+  opacity: 0.9; */
+
+}
+.newsletter{
+  background-image: url(https://www.sheensalon.com/wp-content/uploads/butterflies-small-bg-1.jpg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+.newsletter h2{
+  font-size: 60px;
+  font-family: Cormorant Upright;
+  font-weight: bold;
+  color: #3D1F14;
+  padding-bottom: 10px;
+}
+.footer-bottom{
+  background-color: black;
+}
+.newsletter span{
+  font-family: Cormorant Upright;
+  font-size: 25px;
+  color: #3D1F14;
+  letter-spacing: 2px;
+}
+.newsletter button{
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  border-style: solid;
+  cursor: pointer;
+  letter-spacing: 5.2px;
+  border-width: 6px 6px 6px 6px;
+  background-color: #3D1F14;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 45px;
+  border-color: #FFFFFF;
+}
+.overlay2{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: transparent;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, #FFFFFF 62%);
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+footer{
+  font-family: Cormorant Upright;
+
+}
+.footer-top img{
+  mix-blend-mode: color-dodge;
 }
