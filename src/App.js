@@ -6,9 +6,9 @@ import { useEffect } from 'react';
 
 function App() {
 
-  const handleBlockInspect = (event)=>{
-    event.preventDefault();
-  }
+  // const handleBlockInspect = (event)=>{
+  //   event.preventDefault();
+  // }
 
   // useEffect(()=>{
   //   window.addEventListener('contextmenu',handleBlockInspect);
