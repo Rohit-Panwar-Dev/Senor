@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Upright:wght@500&family=Philosopher:wght@400;700&family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap');
 main{
-  background:url('https://www.sheensalon.com/wp-content/uploads/Home-banner-22.jpg')contain;
+  background:url('https://www.sheensalon.com/wp-content/uploads/Home-banner-22.jpg');
   background-position: center; 
    background-repeat: no-repeat;
   background-attachment: fixed;
